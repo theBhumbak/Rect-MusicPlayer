@@ -19,7 +19,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=21649",
       color: ["#bb9ed6", "#c8ca3b"],
       id: uuid(),
-      active: true,
+      active: false,
     },
     {
       name: "Dawn",
@@ -29,7 +29,7 @@ function chillHop() {
       audio: "https://chillhop.com/releases/toonorth-aftersome/",
       color: ["#9c9efb", "#010101"],
       id: uuid(),
-      active: true,
+      active: false,
     },
     {
       name: "What If I Told You",
@@ -39,7 +39,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=21649",
       color: ["#fed596", "#4e1c3c"],
       id: uuid(),
-      active: true,
+      active: false,
     },
     {
       name: "Viatecture",
@@ -49,7 +49,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=21649",
       color: ["#bb9ed6", "#c8ca3b"],
       id: uuid(),
-      active: true,
+      active: false,
     },
     {
       name: "Dawn",
@@ -59,7 +59,9 @@ function chillHop() {
       audio: "https://chillhop.com/releases/toonorth-aftersome/",
       color: ["#9c9efb", "#010101"],
       id: uuid(),
-      active: true,
+      active: false,
     },
   ];
 }
+
+export default chillHop;
